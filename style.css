@@ -1,0 +1,46 @@
+.reviews{
+    margin-top: 5%;
+    text-align: center;
+}
+.reviews .underline{
+    width: 40px;
+    height: 2px;
+    background-color: deepskyblue;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+.reviews .review{
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, .2);
+}
+.reviews .review .image{
+    border-radius: 50%;
+}
+.reviews .review .image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.reviews #author{
+    font-size: 18px;
+}
+.reviews #job{
+    font-size: 16px;
+    color: deepskyblue;
+    margin-top: -10px;
+}
+.reviews .btn-container button{
+    background: none;
+    border: none;
+    color: deepskyblue;
+    font-size: large;
+}
+.reviews .review .random-btn{
+    color: deepskyblue;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid deepskyblue;
+}
